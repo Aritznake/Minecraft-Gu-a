@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <title> Minecraft </title>
+          <title> Ganar a Minecraft </title>
             <meta charset="UTF-8">
+            <meta name="author" content="Aritznake">
+            <meta http-equiv="Content-Language" content="es">
             <link rel="icon" type="image/x-icon" href="https://tse2.mm.bing.net/th?id=OIP.THidvbfMcuUdktBHdML61AHaHa&pid=Api&P=0.ico">
             <style>
-            /* Coloca estilos a todo el cuerpo html */
+            /* Coloca estilos a todo el cuerpo */
              body {
-              background-color: #64FE2E;
+              
               font-style: italic;
               justify-content: center;
               text-align: center;
@@ -16,10 +18,36 @@
               font-size: 20px;
               font-weight: bolder;
               align-items: center;
+              cursor: default;
+              
+              background-image: linear-gradient(135deg
+              ,#64FE2E,#44bc18,#59a43e,  #4f863b,
+              #6e975f, #6b965c, #66bb47);
+              
+              background-size: 500%;
+              animation: gradiantedefondo 20s infinite;
              }
+             @keyframes  gradiantedefondo{
+                0%{
+                    background-position: 0% 50%;
+                }
+
+                50%{
+                    background-position: 100% 50%;
+                }
+
+                100%{
+                    background-position: 0% 50%;
+                }
+              }
+              table {
+              
+              
+              }
             /* Línea 30 pone una fuente de letra */
              .definicion {
               font-family: Trebuchet MS;
+              font-size: 22px;
              }
             /* Pone un color de fondo a el título */
              .pociones {
@@ -41,9 +69,6 @@
               background-color: rgb(94, 117, 209);
              }
             
-             .hover1 {
-              border-color: #BF00FF;
-             }
              /* Cuando pasas el ratón por encima, pinta el fondo de color azul y pone el borde de color morado */
              .hover1:hover {
                 background-color: rgb(94, 117, 209);
@@ -52,109 +77,17 @@
              .hover2:hover {
                 background-color: aquamarine;
               border-color: rgb(153, 18, 169);
-             }
-             .hover3:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-             }
-             .hover4:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-             }
-             .hover5:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-             }
-             .hover6:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-             }
-             .hover7:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-             }
-             .hover8:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-             }
-             .hover9:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-             }
-             .hover10:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-             }
+              }
             .hover11:hover {
                 background-color: rgb(207, 242, 30);
-              border-color: rgb(153, 18, 169);
-            }
-            .hover12:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover13:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover14:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover15:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover16:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover17:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover18:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover19:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover20:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover21:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover22:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover23:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover24:hover {
-                background-color: aquamarine;
               border-color: rgb(153, 18, 169);
             }
             .hover25:hover {
                 background-color: #BF00FF;
               border-color: rgb(32, 152, 182);
             }
-            .hover26:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover27:hover {
-                background-color: aquamarine;
-              border-color: rgb(153, 18, 169);
-            }
-            .hover28:hover {
-                background-color: aquamarine;
+              .hover29:hover {
+                background-color: #8A0808;
               border-color: rgb(153, 18, 169);
             }
           /* Pone color de fondo al boton, pone color al borde del boton y lo coloca en la esquina */
@@ -183,11 +116,16 @@
               font-size: 16px;
               font-style: italic;
               color: white;
+              cursor: default;
             }
           /* Centra todas las tablas */
             table {
               margin: 0 auto;
             }
+          table:hover {
+            background-color: #44bc18;
+
+          }
           /* Pinta un color de fondo al título de comida */
             .comida {
               background-color: rgb(207, 242, 30);
@@ -200,11 +138,18 @@
             font-size: 18px;
             font-family: Roboto;
             text-align: center;
+            border-radius: 20%;
             }
+            .minecraft {
+                font-size: 50px;
+            }
+              .mascotas {
+              background-color: #8A0808;
+              }
             </style>
      </head>
      <header class="header">
-      <span> <a href="Java edition.html"> <button class="button2"> Java Edition</button> </a> </span>
+      <span> <a href="Java edition.html"> <button class="button2"> Java Edition </button> </a> </span>
          <span> <a href="Minecraft Dungeons Guía.html"> <button class="button1"> Dungeons </button> </a> </span>
          <span>     <a href="https://minecraft.fandom.com/es/wiki/Minecraft_Wiki"> Minecraft Wiki </a> </span>
           <label for="insertarNombre">
@@ -216,7 +161,7 @@
           <input type="text" id="prueba">
         </p>
         <p>
-        Hola <span id="nombreUsuario"></span>!Bienvenido/a a mi página web.
+        ¡Hola <span id="nombreUsuario"></span>! Bienvenido/a a mi página web.
         </p>
       </header>
  <body>
@@ -241,7 +186,7 @@
        <p> cuando estés en un sitio con ladrillos de piedra busca una habitación de donde salgan unos bichos plateados y en el portal encima de la lava coloca los ojos
        y si está completo se encenderá. </p>
        <p> Tírate y ve a la isla más grande con los pilares negros y deberas destruir los cristales de arriba que le dan vida a la dragona.Una vez destruidos los cristales
-       ataca a la dragona hasta matarla y que se abra el portal y deje un huevo metete en el portal y habrás acabado el juego. </div> </p> </h3> </i>
+       ataca a la dragona hasta matarla y que se abra el portal y deje un huevo metete en el portal y habrás acabado el juego. </p> </div>  </h3> </i>
        <hr>
        <img src="http://www.minecraft101.net/r/i/end-central-island.png" widht="420" height="390"/>
        <img src="https://www.thearcader.com/wp-content/uploads/2022/08/Captura-de-pantalla-2022-08-19-a-las-15.15.31.png" widht="427" height="380"/>
@@ -257,16 +202,16 @@
         pues eso es lo que se necesita, polvo de blaze, es el ingrediente que se utiliza para dar calor a las pociones y luego hay otro ingrediente que se utiliza en el 99% de
         las pociones menos la de debilidad, la verruga del nether y aqui teneis algunas de las pociones y como se elaboran. 
           </p>
-           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinV-_0GX-X7NMMZZUDbYI0V4PVXh3yAR2fA&usqp=CAU"/>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinV-_0GX-X7NMMZZUDbYI0V4PVXh3yAR2fA&usqp=CAU" width="570" height="320" alt="Las pociones" />
     <h1>
           <div class="Minería">MINERÍA</div>
     </h1>
      <hr>
                           <p>
                              En minecraft una forma de ser mas poderoso es la de minar para obtener: minerales, bloques, encontrar lugares interesantes y mucho mas.
-                                     Cuando empiezas deberás
-                                     talar un árbol con la mano y con eso hacerte una mesa de fabricación y con ella unos plos y un pico de madera.
-                         </p>
+                             Cuando empiezas deberás
+                             talar un árbol con la mano y con eso hacerte una mesa de fabricación y con ella unos plos y un pico de madera.
+               </p>
                <p>
                  
                             Cuando tengas el pico de madera pica tres de adoquín y haz un pico de piedra con palos y dicho adoquín,
@@ -282,49 +227,49 @@
                   <td> Ancient debris </td>
                   <td> 16 </td>
                 </tr>
-                <tr class="hover3">
+                <tr class="hover2">
                   <td> Carbón </td>
                   <td> 136 </td>
                 </tr>
-                <tr class="hover4">
+                <tr class="hover2">
                   <td> Esmeralda </td>
                   <td> 136 </td>
                 </tr>
-                <tr class="hover5">
+                <tr class="hover2">
                   <td> Hierro </td>
                   <td> 136 </td>
                 </tr>
-                <tr class="hover6">
+                <tr class="hover2">
                   <td> Diamante </td>
                   <td>-59</td>
                 </tr>
-                <tr class="hover7">
+                <tr class="hover2">
                   <td> Oro </td>
                   <td> -16 </td>
                 </tr>
-                <tr class="hover8">
+                <tr class="hover2">
                   <td> Redstone </td>
                   <td> -59 </td>
                 </tr>
-                <tr class="hover9">
+                <tr class="hover2">
                   <td> Lapislázuli </td>
                   <td> 0 </td>
                 </tr>
-                <tr class="hover10">
+                <tr class="hover2">
                   <td> Cobre </td>
                   <td> 48 </td>
                 </tr>
               </table>
-    <img src="https://cdn.alfabetajuega.com/alfabetajuega/2022/06/minecraft-wild-update.jpeg" widht="80999990" height="940"/>
-    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/35/Caves_%26_Cliffs_Ores.png/revision/latest?cb=20210415134055" widht="500" height="840"/>
+    <img src="https://cdn.alfabetajuega.com/alfabetajuega/2022/06/minecraft-wild-update.jpeg" widht="8" height="844"/>
+    
     <h1>
         <div class="comida">COMIDA</div>
 </h1> 
     <hr>
       <p>
-               La comida es imprescindible en Minecraft y hay de muchos tipos como por                   ejemplo la manzana, las bayas dulces, la carne en su estado cocinado
+               La comida es imprescindible en Minecraft y hay de muchos tipos como por ejemplo la manzana, las bayas dulces, la carne en su estado cocinado
                   y crudo etc.
-               Cada comida tiene su propia regeneración de comida y hay otras que tienen                 efectos como las manzanas encantadas,
+               Cada comida tiene su propia regeneración de comida y hay otras que tienen efectos, como las manzanas encantadas,
                   manzanas doradas, carne podrida etc.
     </p>
          <p>
@@ -337,66 +282,120 @@
       <th>COMIDA</th>
       <th>Donde Se consigue</th>
      </tr>
-     <tr class="hover12">
+     <tr class="hover2">
       <td> Patata </td>
       <td> Zombis o aldeas </td>
      </tr>
-     <tr class="hover13">
+     <tr class="hover2">
       <td> Manzana </td>
       <td> Árboles </td>
      </tr>
-     <tr class="hover14">
+     <tr class="hover2">
       <td>  Zanahoria </td>
       <td>  Aldeas </td>
      </tr>    
-     <tr class="hover15">
+     <tr class="hover2">
       <td> Chuleta de cerdo </td>
       <td> Cerdos </td>
      </tr>
-     <tr class="hover16">
+     <tr class="hover2">
       <td> Pez tropical </td>
       <td> Arrecifes de corales </td>
      </tr>
-     <tr class="hover17">
+     <tr class="hover2">
       <td> Bacalao </td>
       <td> En el mar </td>
      </tr>
-     <tr class="hover18">
+     <tr class="hover2">
       <td> Carne podrida </td>
-      <td> Zombie </td>
+      <td> Zombie </td>	
      </tr>
-     <tr class="hover19">
+     <tr class="hover2">
       <td> Pan </td>
       <td> 3 de trigo </td>
      </tr>
-     <tr class="hover20">
+     <tr class="hover2">
       <td> Filete de vaca </td>
       <td> Vaca </td>
      </tr>
-     <tr class="hover21">
+     <tr class="hover2">
       <td> Bayas dulces </td>
       <td> Taiga </td>
      </tr>
-     <tr class="hover22">
+     <tr class="hover2">
       <td> Zanahoria de oro </td>
       <td> Zanahoria con 8 pepitas de oro </td>
      </tr>
-     <tr class="hover23">
+     <tr class="hover2">
       <td> Manzana de oro </td>
       <td> Manzana con 8 lingotes de oro
      </tr>
-     <tr class="hover24">
+     <tr class="hover2">
       <td> Manzana encantada </td>
       <td> Memplo del desierto y jungla </td>
      </tr>
     </table>
-   <img src="http://pm1.narvii.com/7638/2113445f276371c0fd1983c4940aca273f697f6cr1-694-501v2_uhq.jpg" widht="500" height="500"
-    <lorem ipsum>
+  <h1> <div class="mascotas"> MASCOTAS </div> </h1>
+  <p>
+    En Minecraft puedes tener mascotas, como por ejemplo un perro o un gato.
+    Para hacer esto hay algunos animales que se pueden domesticar y solo se pueden domasticar con comida.
+    Los caballos, mulas, burros, llamas, zorros... Son especiales porque en el caballo la comida acelera el preceso (aumenta las provavilidades de domarse) 
+    pero no se va a domar solo por darle la comida, necesita que te montes 1 o varias veces hasta que salgan corazones (de tipo partícula) y en ese momento estara 
+    domado, con los zorros pasa otra cosa y es que no van a ser igual de ovedientes que un perro o gato, los zorros no se van a poder sentar ni quedarse quietos
+    de ninguna forma, tampoco te traen nada mientras duermes como los gatos cuando están de pie o pelear contra otras criaturas como hace el perro.
+    El zorro no hace nada cuando lo domesticas, solo va a correr y si lo atas con una cuerda va a correr en círculos.
+    <table border="1">
+      <tr class="hover29">
+        <th> Animal</th>
+          
+        <th> Comida</th>
+      </tr>
+      <tr class="hover2">
+        
+        <td> Lobo </td>
+          
+        <td> Hueso</td>
+        
+      </tr>
+      
+      <tr class="hover2">
+        
+        <td> Gato</td>
+          
+        <td> Pescado crudo</td>
+        
+      </tr>
+      
+      <tr class="hover2">
+        <td> Caballo, burro, mula y llama</td>
+          
+        <td> Zanahoria dorada</td>
+        
+      </tr>
+       
+      <tr class="hover2">
+      <td> Loro</td>
+          
+        <td> semillas de cualquier tipo</td>
+         
+      <tr class="hover2">
+      <td> Zorro</td>
+          
+        <td> Ballas dulces</td>
+        
+      </tr>
+  </table>
+   <p>
+     
+     
+     
+   </p>
+   <img src="http://pm1.narvii.com/7638/2113445f276371c0fd1983c4940aca273f697f6cr1-694-501v2_uhq.jpg" widht="500" height="500" alt="" >
+    
     <h1>
                 <div class="encantamientos">ENCANTAMIENTOS</div>
     </h1>
     <hr>
-  </lorem ipsum>
       <p>
            Cuando hablamos de encantamientos hay dos formas de encantarse: por mesa de                
            encantamientos o por un libro encantado y un yunque.
@@ -404,13 +403,11 @@
       <p>
                   La opción de la mesa de encantamientos hay que hacerla con:
       </p>
-      <p>
                       <ol>
                         <li> 2 Diamantes
                         <li> 4 Bloque de obsidiana
                         <li> 1 Libro (normal)
                       </ol>
-        </p>
                     <p>
                     y necesitas poner librerías alrededor separados 1 bloque de distancia de
                     la mesa de encantamientos y poner más o menos 15 sería suficientes
@@ -430,15 +427,15 @@
                           <th> Nivel </th>
                           <th> Experiencia</th>
                          </tr>
-                         <tr class="hover26">
+                         <tr class="hover2">
                           <td> 1 </td>
                           <td> 7 </td>
                          </tr>
-                         <tr class="hover27">
+                         <tr class="hover2">
                           <td> 2 </td>
                           <td> 19 </td>
                          </tr>
-                         <tr class="hover28">
+                         <tr class="hover2">
                           <td> 3 </td>
                           <td> 30 </td>
                          </tr>
@@ -474,8 +471,7 @@
             spanNombre.innerHTML = nombre;
           }
           inputNombre.addEventListener("input", insertarNombre);
-
-        function abc() {
+      /* function abc() {
         var nombre = prompt("Porfavor, ingrese su nombre aquí.");
         var apellido = prompt("Porfavor, ingrese su apellido aquí.");
         if (nombre != null) {
@@ -485,7 +481,7 @@
         var nombreApellido = nombre+ " " +apellido;
       if (nombreApellido != null) {
         document.getElementById("Resultado").innerHTML = nombreApellido;
-      }
+      } */
       
         </script>                 
  </body>
